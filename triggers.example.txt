@@ -1,0 +1,4 @@
+# Формат: ключевое_слово=url1,url2,url3
+багет=https://i.postimg.cc/D0zbx5HC/baget.jpg
+нос=https://i.postimg.cc/W3zzmkJc/nos.jpg
+утк=https://i.postimg.cc/6QS248Pt/utka.jpg
