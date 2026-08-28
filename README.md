@@ -13,3 +13,29 @@
 - Python 3.10+
 - aiogram 3.x
 - python-dotenv
+
+## Установка и запуск
+
+1. Клонируйте репозиторий:
+   ```bash
+   git clone https://github.com/yourusername/yourrepo.git
+   cd yourrepo
+2. Создайте виртуальное окружение и установите зависимости:
+   ```bash
+   python -m venv .venv
+   source .venv/bin/activate  # на Windows: .venv\Scripts\activate
+   pip install -r requirements.txt
+3. Создайте файл .env и укажите токен бота:
+   ```bash
+   BOT_TOKEN=ваш_токен_от_BotFather
+   ADMIN_ID=ваш_telegram_id  # для уведомлений об ошибках
+4. Подготовьте файл триггеров:
+   ```bash
+   cp triggers.example.txt triggers.txt
+5. Отредактируйте triggers.txt — укажите ключевые слова и прямые ссылки на изображения.
+6. Запустите бота:
+   ```bash
+   python main.py
+
+
+
